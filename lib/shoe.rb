@@ -14,6 +14,6 @@ class Shoe
    
    def brand=(brand)
      @brand = brand 
-     BRANDS.map{|B|if B==B
+     if brand.unique? then BRANDS << brand 
 
 end
