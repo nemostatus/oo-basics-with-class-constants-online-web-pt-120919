@@ -14,6 +14,6 @@ class Shoe
    
    def brand=(brand)
      @brand = brand 
-     BRANDS.map{|B|
+     BRANDS.map{|B|if B==B
 
 end
