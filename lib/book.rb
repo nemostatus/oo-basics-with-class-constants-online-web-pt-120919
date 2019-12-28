@@ -17,3 +17,4 @@ GENRES = []
     GENRES << genre
 
 end
+end
