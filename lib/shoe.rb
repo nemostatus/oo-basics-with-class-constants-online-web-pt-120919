@@ -17,3 +17,4 @@ class Shoe
      if brand.unique? then BRANDS << brand 
 end
 end
+end
